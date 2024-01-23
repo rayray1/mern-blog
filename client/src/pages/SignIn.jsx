@@ -69,7 +69,7 @@ export default function SignIn() {
 				<div className='flex-1'>
 					<form className='flex flex-col gap-4' onSubmit={handleSubmit}>
 						<div>
-							<Label value='Your email' />
+							<Label value='Email' />
 							<TextInput
 								type='email'
 								placeholder='Email'
@@ -78,7 +78,7 @@ export default function SignIn() {
 							/>
 						</div>
 						<div>
-							<Label value='Your password' />
+							<Label value='Password' />
 							<TextInput
 								type='password'
 								placeholder='Password'
